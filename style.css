@@ -155,7 +155,7 @@ line-height: 70px;
     font-weight: normal;
     padding-top: 0px;
     margin-top: 0px;
-    ;
+    
 }
 
 .highlight-pic img{
@@ -163,6 +163,32 @@ line-height: 70px;
     height: 427px;
 }
 
+.adv img{
+margin-left: 300px;
+margin-top: 80px;
+}
+
+.sponsor {
+font-family:'Poppins', sans-serif ;
+font-size: 30px;
+font-weight: 600;
+color: darkslateblue;
+text-align: center;
+}
+
+.sponsors{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sponsors img{
+    margin-right: 20px;
+}
+.care-p{
+    margin-left: 300px;
+    margin-top: 40px;
+
+}
 /* ---------------------
     Footer part
 --------------------- */
@@ -171,7 +197,8 @@ line-height: 70px;
     height: 213px;
     margin-left: 30%;
     margin-bottom: 63px;
-    margin-top: 153px;
+    margin-top: 80px;
+    margin-bottom: 40px;
 }
 
 .footer-image{
@@ -212,3 +239,109 @@ font-style: normal;
 font-size: 18px;
 }
 
+/* ----------------------
+Media query for 
+--------------------- */
+
+/* -------------------
+    Mobile device
+--------------------- */
+
+
+@media only screen and (max-width:700px){
+    .menu-bar{
+        display: none;
+   
+}
+
+}
+.container-1{
+  /* width: 360px;
+  height: 695px; */
+  width: 100%;
+
+}
+.banner img {
+width: 278px;
+height: 260px;
+margin-top: 50px;
+}
+
+
+.main-header{
+    display:grid ;
+    margin-bottom: 0px;
+    
+}
+
+.heading h1{
+    font-size: 36px;
+    padding-left: 15px;
+    margin-top: 0px;
+}
+
+/*-------------------
+    S container-2 done  
+--------------------*/
+
+.container-2{
+    display: contents;
+}
+
+/* -------------------
+container-2 done
+------------------ */
+
+.highlights{
+    flex-direction: column;
+}
+.highlight-pic{
+    
+    margin-top: 50px;
+}
+.highlight-pic img{
+    width: 100% auto;
+}
+
+/* -------------------------
+    Highlights done
+    -------------------------- */
+
+.adv img {
+    width: 100%;
+    margin: 40px;
+    margin-left: 0px;
+}
+
+.sponsors {
+    flex-direction: column;
+}
+.sponsors img {
+    margin-top: 20px;
+}
+.care-p{
+    margin-left: 0px;
+}
+.care-p img{
+    width: 100%;
+}
+
+/* ---------------------
+    main section done 
+    ------------------------- */
+
+    footer{
+       display:flex;
+       flex-direction: column;
+    }
+    .footer-image img{
+        width:200px;
+        height: 60px;
+    }
+.footer-icons{
+justify-content: left;
+padding-left: 30px;
+}
+    .copyright p{
+        text-align: left;
+    }
